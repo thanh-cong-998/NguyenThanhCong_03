@@ -23,5 +23,7 @@ namespace NguyenThanhCong_03.Models
                 .Property(e => e.MaNhanVien)
                 .IsUnicode(false);
         }
+
+        public System.Data.Entity.DbSet<NguyenThanhCong_03.Models.Account> Accounts { get; set; }
     }
 }
