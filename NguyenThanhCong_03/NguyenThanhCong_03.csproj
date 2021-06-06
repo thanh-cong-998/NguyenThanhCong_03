@@ -128,6 +128,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\NhanViensController.cs" />
     <Compile Include="Controllers\PhongBansController.cs" />
@@ -138,7 +139,12 @@
     <Compile Include="Migrations\202106060814240_create_database.Designer.cs">
       <DependentUpon>202106060814240_create_database.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202106060827141_create_table_Account.cs" />
+    <Compile Include="Migrations\202106060827141_create_table_Account.Designer.cs">
+      <DependentUpon>202106060827141_create_table_Account.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Account.cs" />
     <Compile Include="Models\LTQLDb.cs" />
     <Compile Include="Models\NhanVien.cs" />
     <Compile Include="Models\PhongBan.cs" />
@@ -193,6 +199,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Account\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -210,6 +217,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202106060814240_create_database.resx">
       <DependentUpon>202106060814240_create_database.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106060827141_create_table_Account.resx">
+      <DependentUpon>202106060827141_create_table_Account.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
