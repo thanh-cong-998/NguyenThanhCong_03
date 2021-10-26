@@ -143,11 +143,16 @@
     <Compile Include="Migrations\202106060827141_create_table_Account.Designer.cs">
       <DependentUpon>202106060827141_create_table_Account.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202106100117336_create_table_SinhVien.cs" />
+    <Compile Include="Migrations\202106100117336_create_table_SinhVien.Designer.cs">
+      <DependentUpon>202106100117336_create_table_SinhVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Account.cs" />
     <Compile Include="Models\LTQLDb.cs" />
     <Compile Include="Models\NhanVien.cs" />
     <Compile Include="Models\PhongBan.cs" />
+    <Compile Include="Models\SinhVien.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -220,6 +225,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202106060827141_create_table_Account.resx">
       <DependentUpon>202106060827141_create_table_Account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106100117336_create_table_SinhVien.resx">
+      <DependentUpon>202106100117336_create_table_SinhVien.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

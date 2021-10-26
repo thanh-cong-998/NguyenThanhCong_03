@@ -15,6 +15,7 @@ namespace NguyenThanhCong_03.Models
 
         public virtual DbSet<PhongBan> PhongBans { get; set; }
         public virtual DbSet<NhanVien> NhanViens { get; set; }
+        public virtual DbSet<SinhVien> SinhViens { get; set; }
         public IEnumerable<object> Account { get; internal set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
